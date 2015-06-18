@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://localhost/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/4.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.4" -->
+<!-- generated-on="June 11, 2015 11:19 am" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://localhost/</loc>
+		<lastmod>2015-04-27T14:18:16+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 2127: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2127</loc>
+		<lastmod>2015-06-11T11:17:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 581: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=581</loc>
+		<lastmod>2015-06-10T12:12:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 584: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=584</loc>
+		<lastmod>2015-06-10T12:12:19+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 590: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=590</loc>
+		<lastmod>2015-06-10T12:12:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 593: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=593</loc>
+		<lastmod>2015-06-10T12:12:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 596: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=596</loc>
+		<lastmod>2015-06-10T12:11:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 599: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=599</loc>
+		<lastmod>2015-06-10T12:11:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2083: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2083</loc>
+		<lastmod>2015-06-10T12:11:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2085: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2085</loc>
+		<lastmod>2015-06-10T12:11:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2087: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2087</loc>
+		<lastmod>2015-06-10T12:11:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2089: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2089</loc>
+		<lastmod>2015-06-10T12:11:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2091: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2091</loc>
+		<lastmod>2015-06-10T12:10:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2093: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2093</loc>
+		<lastmod>2015-06-10T12:10:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2095: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2095</loc>
+		<lastmod>2015-06-10T12:10:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 2097: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://localhost/?p=2097</loc>
+		<lastmod>2015-06-10T12:10:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://localhost/?page_id=82</loc>
+		<lastmod>2014-03-06T13:59:56+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://localhost/?page_id=66</loc>
+		<lastmod>2014-03-05T11:09:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

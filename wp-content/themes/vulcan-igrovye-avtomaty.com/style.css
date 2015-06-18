@@ -1,0 +1,360 @@
+/*   
+Theme Name:  vulcan-igrovye-avtomaty.com
+Theme URI: vulcan-igrovye-avtomaty.com
+Description:  vulcan-igrovye-avtomaty.com
+Author: Sgvcool
+Author URI: 
+Template:
+Version: 1.0
+*/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+a:focus{outline:none;}
+a:active,a:hover{outline:0;}
+h1{font-size:2em;margin:.67em 0;}
+abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],/* 1 */
+input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+/*normalize end*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0;font-size: 100%; vertical-align: baseline; background: transparent;}
+ol, ul {padding-left: 15px;}
+blockquote, q { padding-left: 20px;font-style: italic; font-size: 14px;}
+:focus { outline: 0;}
+ins { text-decoration: none;}
+del { text-decoration: line-through;}
+table {border-collapse: collapse;border-spacing: 0;}
+header, nav, section, article, aside, footer {  display: block;}
+h1{font-size: 30px; padding: 10px 0px;}
+h2{font-size: 28px; padding: 10px 0px;}
+h3{font-size: 26px; padding: 10px 0px;}
+h4{font-size: 24px; padding: 10px 0px;}
+p{margin-top: 10px; margin-bottom: 10px;}
+.alignleft {float:left;margin:5px 10px 5px 0}
+.alignright {float:right;margin:5px 0 5px 10px}
+.left{float: left;}
+.right{float: right;}
+a{color: #fff;}
+.clear{clear:both;}
+
+body {
+	font: 15px 'Arial';
+	color: #FDFDFD !important;
+	width: 100%;
+	background: url("img/fon.png") repeat-x scroll 0% 0% #000;}
+	.greatContainer {
+    height: auto;
+    overflow: hidden;
+    width: 985px;
+    margin: auto;
+	}
+		header{
+			display: block;
+			height: auto;
+			background: url("img/main_header.png") no-repeat scroll center bottom transparent;
+		}
+		.logoSite {
+			background: url("img/logo.png") repeat scroll 0px 0px transparent;
+			display: block;
+			width: 250px;
+			height: 130px;
+			margin: -25px auto 0px;
+		}
+		
+		/*
+		 * main menu
+		 */
+		.menu-main-container{margin-left: 0px;}
+			.menu-main-container{padding: 0px !important;}	
+				.menu-main-container ul {
+					display: table;
+					margin: auto;
+					padding: 0px;
+					width: 100%;
+				}
+					.menu-main-container ul li {
+						display: block;
+						position: relative;
+						float: left;
+						padding: 16px 3px 0px;
+						text-align: center;
+						width: 19%;
+						overflow: hidden;
+					}
+					.menu-main-container ul li:hover a{color: #FF0001;}
+						.menu-main-container ul li a {
+							font-size: 18px;
+						}
+					.menu-main-container ul li:nth-child(1){float: left; text-align: left;}
+					.menu-main-container ul li:nth-child(2){float: left; text-align: left;}
+					.menu-main-container ul li:nth-child(3){float: right; text-align: right;}
+					.menu-main-container ul li:nth-child(4){float: right; text-align: right;}
+		
+		/*
+		 * main contant
+		 */
+		.wrapper{
+			background: url("img/columns.png") repeat-y scroll 0% 0% transparent;
+			height: auto;
+			overflow: hidden;
+			padding: 0px 17px;
+		}
+		.line{
+			background: url("img/line.png") no-repeat scroll 0% 0% transparent;
+			width: 100%;
+			height: 5px;
+		}
+			.foreHeader {
+				height: auto;
+				overflow: hidden;
+				background: url("img/bg_header.png") repeat scroll 0% 0% rgba(0,0,0,0.5);
+				padding: 15px;
+			}
+				.left-side-forheader {
+					width: 60%;
+					display: block;
+					height: auto;
+					overflow: hidden;
+					float: left;
+				}
+					.left-side-forheader ul {list-style: none;margin-top: 40px;}
+						.left-side-forheader ul li {
+							background: url("img/rarr.png") no-repeat scroll 0px 0px transparent;
+							padding: 6px 0px 6px 32px;
+						}
+				.right-side-forheader {
+					float: left;
+					display: block;
+					width: 40%;
+				}
+					.win-now {
+						border: 1px solid #1A9DFF;
+						height: 206px;
+						overflow: hidden;
+					}
+					.win-now  .bx-viewport{
+						width: 354px !important;
+					}
+						.win-now ul {
+							padding: 0px 15px;
+							width: 340px !important;
+						}
+							.win-now ul li{width: 330px !important;}
+						.win-now p {
+							font-size: 18px;
+							border-bottom: 1px solid #1A9DFF;
+							padding: 10px;
+						}
+						.one-item {
+							padding: 5px 10px;
+							border-bottom: 1px solid #1A9DFF;
+							height: auto;
+							overflow: hidden;
+						}
+							.gamer {float: left;}
+							.money{float: right; color: #8ADB3E;}
+		.slider-cont .bx-viewport{height: 250px !important;}
+		.slider{padding: 0;}
+		.bx-controls{ display: none !important;}
+			.slider li{list-style: none;}
+		.contant-block{
+			background: url("img/bg_header.png") repeat scroll 0px 0px transparent;
+			height: auto;
+			overflow: hidden;
+		}
+			.bk-title {
+				text-align: center;
+				font-size: 24px;
+			}
+			.bl-list-slots{
+				list-style: none;
+				padding: 15px;
+				text-align: center;
+			}
+				.bl-list-slots li{
+					display: inline-block;
+					width: 180px;
+					text-align: center;
+					margin-bottom: 20px;
+				}
+				.bl-list-slots li:hover .item-slot-cont{
+					background-position: center -106px;
+				}
+					.slot-name {
+						text-transform: uppercase;
+						height: 40px;
+						overflow: hidden;
+					}
+					.item-slot-cont {
+						background: url("img/sprt_bt_menu.png") no-repeat scroll center 0px transparent;
+						overflow: hidden;
+						padding-top: 3px;
+						height: 103px;
+						z-index: 1;
+						position: relative;
+						margin-bottom: 5px;
+					}
+						.item-slot-cont img {
+							margin-left: 1px;
+							position: relative;
+							width: 159px;
+							height: 98px;
+							border-radius: 7px;
+						}
+		.list-news {
+			width: 870px;
+			display: block;
+			margin: auto;
+			height: auto;
+			overflow: hidden;
+			padding: 15px 15px 15px 30px;
+			border: 2px solid #1A9DFF;
+			border-radius: 8px;
+			text-align: center;
+		}
+			.list-news li{
+				width: 50%;
+				text-align: left;
+				list-style-type: circle;
+				float: left;
+			}
+		.text {
+			text-align: justify;
+			padding: 15px;
+		}
+			.headline{text-align: center;}
+			
+/*
+ * footer
+ */
+footer{
+	background: url("img/bg_header.png") repeat scroll 0px 0px transparent;
+	height: auto;
+	padding: 15px;
+	overflow: hidden;
+}
+.footer-menu div{margin-left: 0px;}
+	.footer-menu div{padding: 0px !important;}	
+		.footer-menu div ul {
+			display: table;
+			margin: auto;
+			padding: 0px;
+			width: 100%;
+			text-align: center;
+		}
+			.footer-menu div ul li {
+				display: inline-block;
+				position: relative;
+				padding: 15px 15px 3px;
+				text-align: center;
+				overflow: hidden;
+			}
+			.footer-menu div ul li:hover a{color: #FF0001;}
+				.footer-menu div ul li a {
+					font-size: 18px;
+				}
+		.pay {
+			background: url("img/pay.png") no-repeat scroll center center transparent;
+			height: 44px;
+			margin: 35px 0px 20px;
+		}
+		.copy{
+			text-align: center;
+			font-size: 12px;
+			margin-bottom: 50px;
+		}
+
+/*
+ * category
+ */
+.wp-pagenavi span.current {
+		background: none repeat scroll 0% 0% #DECF88;
+		color: #000;
+		border: 1px solid #7171AA;}
+	.wp-pagenavi a:hover, .wp-pagenavi span:hover {
+		background: none repeat scroll 0% 0% #DECF88;
+		color: #000;}
+	.wp-pagenavi {
+	  text-align: center;
+	  clear: both;
+	  position: relative;
+	  z-index: 1;}
+	.wp-pagenavi a, .wp-pagenavi span {
+		text-decoration: none;
+		border: 1px solid #DECF88;
+		padding: 5px 8px;
+		margin: 2px;
+		border-radius: 3px;
+		color: #FFF;
+		display: inline-block;
+		margin-bottom: 15px;}
+
+/*
+ * news
+ */
+.list-news-category{}
+	.list-news-category li{
+		list-style: none;
+		height: 202px;
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+		.news-picture {
+			width: 250px;
+			height: 200px;
+			border:  1px solid #1A9DFF;
+			display: block;
+			float: left;
+		}
+			.news-picture img{
+				width: 250px;
+				height: 200px;
+			}
+		.text-new-item {
+			display: block;
+			float: left;
+			padding: 0px 15px;
+			width: 654px;
+			height: 200px;
+			overflow: hidden;
+			position: relative;
+		}
+			.name-news-item {
+				text-transform: uppercase;
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			.detail {
+				right: 22px;
+				bottom: 0px;
+				text-transform: uppercase;
+				color: #84BC00;
+				position: absolute;
+			}
+			.detail:hover{color: #F00;}
+
+/*
+ * 404
+ */
+.errorcode{font-size: 220px;}
+
+/*
+ * single
+ */
+.contant-block iframe {
+	width: 900px !important;
+	margin: 0px auto;
+	display: block;
+	height: 700px !important;
+	border: 1px solid #008d97;
+}
+	.slot-slider{
+		display: table;
+		margin: auto;
+	}

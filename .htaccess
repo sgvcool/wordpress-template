@@ -1,0 +1,26 @@
+#AuthType Basic
+#AuthName "Private zone. Only for administrator!"
+#AuthUserFile  /home/user2304/data/www/777-free-slots.com/.htpasswd
+#require valid-user
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST}	^www\.(.*)	[NC]
+RewriteRule ^(.*)$ http://%1/$1	[R=301,L]
+
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+#<IfModule mod_rewrite.c>
+#RewriteCond %{THE_REQUEST} index\.php
+#RewriteRule ^index\.php$ http://igrat-v-avtomati\.com/ [R=301,L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index\.php [L]
+#</IfModule>
+# BEGIN WordPress
+
+# END WordPress
